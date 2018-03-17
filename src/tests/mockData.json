@@ -1,0 +1,50 @@
+{
+  "companies": [
+    {
+      "id": "1",
+      "name": "CompanyA"
+    },
+    {
+      "id": "2",
+      "name": "CompanyB"
+    }
+  ],
+  "users": [
+    {
+      "name": {
+        "first": "John",
+        "last": "Doe"
+      },
+      "company_id": "1",
+      "email": "John@email.com"
+    },
+    {
+      "name": {
+        "first": "Jack",
+        "last": "Hill"
+      },
+      "company_id": "2",
+      "email": "Jack@email.com"
+    },
+    {
+      "name": {
+        "first": "Dan",
+        "last": "Dunn"
+      },
+      "company_id": "2",
+      "email": "Dan@email.com"
+    }
+  ],
+  "conversations": [
+    {
+      "from": "Jack@email.com",
+      "subject": "sint magna laborum",
+      "body":
+        "Duis dolore anim commodo commodo exercitation exercitation exercitation Lorem dolore.",
+      "date": 1520326526066,
+      "to": ["John@email.com"],
+      "bcc": [],
+      "tags": []
+    }
+  ]
+}

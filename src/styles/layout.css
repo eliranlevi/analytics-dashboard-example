@@ -1,0 +1,21 @@
+@media (min-width: 768px) {
+  .layout, .layout > .row, .layout > .row > * {
+    height: 100%;
+  }
+}
+
+@media (max-width: 768px) {
+  .sidenav .page-header {
+    margin: 0;
+    padding: 30px 0;
+  }
+}
+
+.panel {
+  min-height: 190px;
+}
+
+.sidenav {
+  color: white;
+  background: #2D89AD;
+}
